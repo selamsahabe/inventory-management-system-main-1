@@ -1,4 +1,8 @@
 ## ✨ Inventory Management System
+Students;
+Nigar Alizada 41394
+Elifcan Yasar 41642
+Selam Sahabe Karadag 40469
 
 Inventory Management System with Laravel 10 and MySql.
 
