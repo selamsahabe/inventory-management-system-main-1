@@ -35,56 +35,12 @@ git clone https://github.com/fajarghifar/inventory-management-system
 cd inventory-management-system
 ```
 
-3. Install Packages 
-
+3. Run commnand
 ```bash
-composer install
+docker compose up -d
 ```
 
-
-4. Copy `.env` file 
-
-```bash
-
-cp .env.example .env
-
-```
-
-5. Generate app key 
-
-```bash
-php artisan key:generate
-```
-
-6. Setting up your database credentials in your `.env` file.
-7. Seed Database: 
-
-```bash
-
-php artisan migrate:fresh --seed
-
-```
-8. Create Storage Link
-
-```bash
-php artisan storage:link
-```
-
-9. Install NPM dependencies 
-
-```bash
-
-npm install && npm run dev
-
-```
-10. Run 
-
-```bash
-
-php artisan serve
-
-```
-11. Try login with email: 
+5. Try login with email: 
 
 ```bash
 
