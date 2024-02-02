@@ -25,7 +25,7 @@ services:
     restart: unless-stopped
     tty: true
     ports:
-      - "3306:3306"
+      - "3309:3306"
     environment:
       MYSQL_DATABASE: my_db
       MYSQL_USER: my_user
